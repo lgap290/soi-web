@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2010-03-28" view-index="0" gantt-divider-location="372" resource-divider-location="301" version="2.0">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart"/>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="55" order="0"/>
+        <field id="1" name="Función" width="44" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+        <date year="2010" month="4" date="2"/>
+        <date year="2010" month="4" date="1"/>
+        <date year="2010" month="3" date="24"/>
+        <date year="2010" month="5" date="25"/>
+        <date year="2010" month="7" date="9"/>
+        <date year="2010" month="6" date="21"/>
+        <date year="2010" month="8" date="16"/>
+        <date year="2010" month="10" date="11"/>
+        <date year="2010" month="10" date="27"/>
+        <date year="2010" month="12" date="8"/>
+        <date year="2010" month="12" date="25"/>
+    </calendars>
+    <tasks color="#8cb6ce">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="SPRINT 0" color="#8cb6ce" meeting="false" start="2010-03-29" duration="5" complete="0" priority="1" expand="true"/>
+        <task id="1" name="SPRINT 1" color="#8cb6ce" meeting="false" start="2010-03-29" duration="20" complete="0" priority="1" expand="true">
+            <task id="40" name="Plataforma" color="#8cb6ce" meeting="false" start="2010-03-29" duration="9" complete="0" priority="1" expand="true">
+                <depend id="30" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="30" name="Usuarios" color="#8cb6ce" meeting="false" start="2010-04-13" duration="5" complete="0" priority="1" expand="false">
+                <task id="15" name="MD usuarios" color="#8cb6ce" meeting="false" start="2010-04-13" duration="1" complete="0" priority="1" expand="true">
+                    <depend id="21" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="21" name="LN ABMC usuarios" color="#8cb6ce" meeting="false" start="2010-04-14" duration="1" complete="0" priority="1" expand="true">
+                    <depend id="22" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="22" name="GUI ABMC usuarios" color="#8cb6ce" meeting="false" start="2010-04-15" duration="3" complete="0" priority="1" expand="true"/>
+            </task>
+            <task id="32" name="Permisos" color="#8cb6ce" meeting="false" start="2010-04-23" duration="3" complete="0" priority="1" expand="false">
+                <task id="39" name="MD permisos" color="#8cb6ce" meeting="false" start="2010-04-23" duration="1" complete="0" priority="1" expand="false">
+                    <depend id="37" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="37" name="LN ABMC permisos" color="#8cb6ce" meeting="false" start="2010-04-26" duration="1" complete="0" priority="1" expand="false">
+                    <depend id="35" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="35" name="GUI ABMC permisos" color="#8cb6ce" meeting="false" start="2010-04-27" duration="1" complete="0" priority="1" expand="false"/>
+            </task>
+            <task id="31" name="Roles" color="#8cb6ce" meeting="false" start="2010-04-20" duration="3" complete="0" priority="1" expand="false">
+                <depend id="32" type="2" difference="0" hardness="Strong"/>
+                <task id="29" name="MD roles" color="#8cb6ce" meeting="false" start="2010-04-20" duration="1" complete="0" priority="1" expand="false">
+                    <depend id="27" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="27" name="LN ABMC roles" color="#8cb6ce" meeting="false" start="2010-04-21" duration="1" complete="0" priority="1" expand="false">
+                    <depend id="25" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="25" name="GUI ABMC roles" color="#8cb6ce" meeting="false" start="2010-04-22" duration="1" complete="0" priority="1" expand="false"/>
+            </task>
+        </task>
+        <task id="2" name="SPRINT 2" color="#8cb6ce" meeting="false" start="2010-03-29" duration="3" complete="0" priority="1" expand="true">
+            <task id="41" name="Clínica" color="#8cb6ce" meeting="false" start="2010-03-29" duration="3" complete="0" priority="1" expand="false">
+                <task id="47" name="MD profesionales" color="#8cb6ce" meeting="false" start="2010-03-29" duration="1" complete="0" priority="1" expand="true">
+                    <depend id="48" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="48" name="LN profesionales" color="#8cb6ce" meeting="false" start="2010-03-30" duration="1" complete="0" priority="1" expand="true">
+                    <depend id="49" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="49" name="GUI ABMC profesionales" color="#8cb6ce" meeting="false" start="2010-03-31" duration="1" complete="0" priority="1" expand="true"/>
+                <task id="42" name="MD consultorios" color="#8cb6ce" meeting="false" start="2010-03-29" duration="1" complete="0" priority="1" expand="true">
+                    <depend id="43" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="43" name="LN consultorios" color="#8cb6ce" meeting="false" start="2010-03-30" duration="1" complete="0" priority="1" expand="true">
+                    <depend id="44" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="44" name="GUI ABMC profesionales" color="#8cb6ce" meeting="false" start="2010-03-31" duration="1" complete="0" priority="1" expand="true"/>
+            </task>
+            <task id="46" name="Pacientes" color="#8cb6ce" meeting="false" start="2010-03-29" duration="3" complete="0" priority="1" expand="false">
+                <task id="50" name="MD datos personales" color="#8cb6ce" meeting="false" start="2010-03-29" duration="1" complete="0" priority="1" expand="true">
+                    <depend id="51" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="51" name="LN datos personales" color="#8cb6ce" meeting="false" start="2010-03-30" duration="1" complete="0" priority="1" expand="true">
+                    <depend id="52" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="52" name="GUI datos personales" color="#8cb6ce" meeting="false" start="2010-03-31" duration="1" complete="0" priority="1" expand="true"/>
+            </task>
+        </task>
+        <task id="3" name="SPRINT 3" color="#8cb6ce" meeting="false" start="2010-03-29" duration="3" complete="0" priority="1" expand="true">
+            <task id="53" name="Prácticas" color="#8cb6ce" meeting="false" start="2010-03-29" duration="3" complete="0" priority="1" expand="false">
+                <task id="54" name="MD prácticas" color="#8cb6ce" meeting="false" start="2010-03-29" duration="1" complete="0" priority="1" expand="true">
+                    <depend id="55" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="55" name="LN prácticas" color="#8cb6ce" meeting="false" start="2010-03-30" duration="1" complete="0" priority="1" expand="true">
+                    <depend id="56" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="56" name="GUI ABMC prácticas" color="#8cb6ce" meeting="false" start="2010-03-31" duration="1" complete="0" priority="1" expand="true"/>
+            </task>
+            <task id="57" name="Turnos" color="#8cb6ce" meeting="false" start="2010-03-29" duration="3" complete="0" priority="1" expand="false">
+                <task id="58" name="MD turnos" color="#8cb6ce" meeting="false" start="2010-03-29" duration="1" complete="0" priority="1" expand="true">
+                    <depend id="59" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="59" name="LN turnos" color="#8cb6ce" meeting="false" start="2010-03-30" duration="1" complete="0" priority="1" expand="true">
+                    <depend id="60" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="60" name="GUI turnos" color="#8cb6ce" meeting="false" start="2010-03-31" duration="1" complete="0" priority="1" expand="true"/>
+            </task>
+            <task id="61" name="OOSS y Prepagas" color="#8cb6ce" meeting="false" start="2010-03-29" duration="3" complete="0" priority="1" expand="false">
+                <task id="62" name="MD OOSS y Prepagas" color="#8cb6ce" meeting="false" start="2010-03-29" duration="1" complete="0" priority="1" expand="true">
+                    <depend id="63" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="63" name="LN OOSS y Prepagas" color="#8cb6ce" meeting="false" start="2010-03-30" duration="1" complete="0" priority="1" expand="true">
+                    <depend id="64" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="64" name="GUI ABMC OOSS y Prepagas" color="#8cb6ce" meeting="false" start="2010-03-31" duration="1" complete="0" priority="1" expand="true"/>
+            </task>
+        </task>
+        <task id="4" name="SPRINT 4" color="#8cb6ce" meeting="false" start="2010-06-04" duration="20" complete="0" priority="1" expand="true"/>
+        <task id="5" name="SPRINT 5" color="#8cb6ce" meeting="false" start="2010-07-05" duration="20" complete="0" priority="1" expand="true"/>
+        <task id="6" name="SPRINT 6" color="#8cb6ce" meeting="false" start="2010-08-03" duration="20" complete="0" priority="1" expand="true"/>
+        <task id="7" name="SPRINT 7" color="#8cb6ce" meeting="false" start="2010-09-01" duration="20" complete="0" priority="1" expand="true"/>
+        <task id="8" name="SPRINT 8" color="#8cb6ce" meeting="false" start="2010-09-29" duration="20" complete="0" priority="1" expand="true"/>
+        <task id="9" name="SPRINT 9" color="#8cb6ce" meeting="false" start="2010-10-29" duration="20" complete="0" priority="1" expand="true"/>
+        <task id="10" name="SPRINT 10" color="#8cb6ce" meeting="false" start="2010-11-26" duration="20" complete="0" priority="1" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Ignacio Aíta" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="1" name="Juan Manuel Cortez" function="SoftwareDevelopment:2" contacts="" phone=""/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd3" order="0" width="92"/>
+        <displaycolumn property-id="tpd4" order="1" width="63"/>
+        <displaycolumn property-id="tpd5" order="2" width="60"/>
+        <displaycolumn property-id="tpd6" order="3" width="60"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
