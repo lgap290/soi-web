@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2010-07-14" view-index="0" gantt-divider-location="372" resource-divider-location="301" version="2.0">
+<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2010-06-01" view-index="0" gantt-divider-location="372" resource-divider-location="301" version="2.0">
     <description/>
     <view zooming-state="default:2" id="gantt-chart"/>
     <view id="resource-table">
@@ -166,47 +166,223 @@
             </task>
             <task id="73" name="Pacientes" color="#8cb6ce" meeting="false" start="2010-07-06" duration="10" complete="0" priority="1" expand="true">
                 <depend id="77" type="2" difference="0" hardness="Strong"/>
-                <task id="74" name="MD odontograma" color="#8cb6ce" meeting="false" start="2010-07-06" duration="2" complete="0" priority="1" expand="true">
-                    <depend id="75" type="2" difference="0" hardness="Strong"/>
+                <task id="211" name="Odontograma" color="#8cb6ce" meeting="false" start="2010-07-06" duration="10" complete="0" priority="1" expand="true">
+                    <task id="74" name="MD" color="#8cb6ce" meeting="false" start="2010-07-06" duration="2" complete="0" priority="1" expand="true">
+                        <depend id="75" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="75" name="LN" color="#8cb6ce" meeting="false" start="2010-07-08" duration="2" complete="0" priority="1" expand="true">
+                        <depend id="76" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="76" name="GUI" color="#8cb6ce" meeting="false" start="2010-07-13" duration="6" complete="0" priority="1" expand="true"/>
                 </task>
-                <task id="75" name="LN odontograma" color="#8cb6ce" meeting="false" start="2010-07-08" duration="2" complete="0" priority="1" expand="true">
-                    <depend id="76" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="76" name="GUI odontograma" color="#8cb6ce" meeting="false" start="2010-07-13" duration="6" complete="0" priority="1" expand="true"/>
             </task>
             <task id="77" name="Prácticas" color="#8cb6ce" meeting="false" start="2010-07-21" duration="4" complete="0" priority="1" expand="true">
                 <depend id="81" type="2" difference="0" hardness="Strong"/>
-                <task id="78" name="LN administración avanzada" color="#8cb6ce" meeting="false" start="2010-07-21" duration="4" complete="0" priority="1" expand="true"/>
+                <task id="212" name="Administración avanzada" color="#8cb6ce" meeting="false" start="2010-07-21" duration="4" complete="0" priority="1" expand="true">
+                    <task id="78" name="LN" color="#8cb6ce" meeting="false" start="2010-07-21" duration="4" complete="0" priority="1" expand="true"/>
+                </task>
             </task>
             <task id="80" name="Turnos" color="#8cb6ce" meeting="false" start="2010-07-27" duration="4" complete="0" priority="1" expand="true">
                 <depend id="72" type="2" difference="0" hardness="Strong"/>
-                <task id="81" name="LN otorgamiento dinámico" color="#8cb6ce" meeting="false" start="2010-07-27" duration="4" complete="0" priority="1" expand="true">
-                    <depend id="72" type="2" difference="0" hardness="Strong"/>
+                <task id="213" name="Turnos dinámicos" color="#8cb6ce" meeting="false" start="2010-07-27" duration="4" complete="0" priority="1" expand="true">
+                    <task id="81" name="LN" color="#8cb6ce" meeting="false" start="2010-07-27" duration="4" complete="0" priority="1" expand="true">
+                        <depend id="72" type="2" difference="0" hardness="Strong"/>
+                    </task>
                 </task>
             </task>
             <task id="72" name="Cierre" color="#8cb6ce" meeting="false" start="2010-08-02" duration="1" complete="0" priority="1" expand="true"/>
         </task>
-        <task id="5" name="SPRINT 5" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="true">
-            <task id="84" name="Planificación" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="true"/>
-            <task id="85" name="Cierre" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="true"/>
+        <task id="5" name="SPRINT 5" color="#8cb6ce" meeting="false" start="2010-05-21" duration="28" complete="0" priority="1" expand="false">
+            <task id="84" name="Planificación" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="true">
+                <depend id="124" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="124" name="Materiales" color="#8cb6ce" meeting="false" start="2010-06-10" duration="7" complete="0" priority="1" expand="true">
+                <task id="203" name="Administración básica" color="#8cb6ce" meeting="false" start="2010-06-10" duration="7" complete="0" priority="1" expand="false">
+                    <task id="205" name="MD" color="#8cb6ce" meeting="false" start="2010-06-10" duration="2" complete="0" priority="1" expand="false">
+                        <depend id="207" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="207" name="LN" color="#8cb6ce" meeting="false" start="2010-06-14" duration="2" complete="0" priority="1" expand="false">
+                        <depend id="209" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="209" name="GUI" color="#8cb6ce" meeting="false" start="2010-06-16" duration="3" complete="0" priority="1" expand="false"/>
+                </task>
+            </task>
+            <task id="116" name="Turnos" color="#8cb6ce" meeting="false" start="2010-06-10" duration="7" complete="0" priority="1" expand="true">
+                <depend id="108" type="2" difference="0" hardness="Strong"/>
+                <task id="201" name="Administración básica" color="#8cb6ce" meeting="false" start="2010-06-10" duration="7" complete="0" priority="1" expand="false">
+                    <task id="118" name="MD" color="#8cb6ce" meeting="false" start="2010-06-10" duration="2" complete="0" priority="1" expand="false">
+                        <depend id="120" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="120" name="LN" color="#8cb6ce" meeting="false" start="2010-06-14" duration="2" complete="0" priority="1" expand="false">
+                        <depend id="122" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="122" name="GUI" color="#8cb6ce" meeting="false" start="2010-06-16" duration="3" complete="0" priority="1" expand="false"/>
+                </task>
+            </task>
+            <task id="108" name="OOSS y Prepagas" color="#8cb6ce" meeting="false" start="2010-06-22" duration="8" complete="0" priority="1" expand="true">
+                <task id="200" name="Administración básica" color="#8cb6ce" meeting="false" start="2010-06-22" duration="8" complete="0" priority="1" expand="false">
+                    <task id="110" name="MD" color="#8cb6ce" meeting="false" start="2010-06-22" duration="3" complete="0" priority="1" expand="false">
+                        <depend id="112" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="112" name="LN" color="#8cb6ce" meeting="false" start="2010-06-25" duration="3" complete="0" priority="1" expand="false">
+                        <depend id="114" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="114" name="GUI" color="#8cb6ce" meeting="false" start="2010-06-30" duration="2" complete="0" priority="1" expand="false"/>
+                </task>
+            </task>
+            <task id="210" name="Preparar demo" color="#8cb6ce" meeting="false" start="2010-06-01" duration="1" complete="0" priority="1" expand="true">
+                <depend id="85" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="85" name="Cierre" color="#8cb6ce" meeting="false" start="2010-06-02" duration="1" complete="0" priority="1" expand="true"/>
         </task>
-        <task id="6" name="SPRINT 6" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="true">
-            <task id="89" name="Planificación" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="false"/>
-            <task id="87" name="Cierre" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="false"/>
+        <task id="6" name="SPRINT 6" color="#8cb6ce" meeting="false" start="2010-05-21" duration="16" complete="0" priority="1" expand="false">
+            <task id="89" name="Planificación" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="false">
+                <depend id="131" type="2" difference="0" hardness="Strong"/>
+                <depend id="137" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="131" name="Facturación" color="#8cb6ce" meeting="false" start="2010-05-24" duration="15" complete="0" priority="1" expand="true">
+                <depend id="199" type="2" difference="0" hardness="Strong"/>
+                <task id="193" name="Facturación" color="#8cb6ce" meeting="false" start="2010-05-24" duration="8" complete="0" priority="1" expand="false">
+                    <depend id="194" type="2" difference="0" hardness="Strong"/>
+                    <task id="132" name="MD" color="#8cb6ce" meeting="false" start="2010-05-24" duration="3" complete="0" priority="1" expand="true">
+                        <depend id="133" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="133" name="LN" color="#8cb6ce" meeting="false" start="2010-05-28" duration="1" complete="0" priority="1" expand="true">
+                        <depend id="134" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="134" name="GUI" color="#8cb6ce" meeting="false" start="2010-05-31" duration="4" complete="0" priority="1" expand="true">
+                        <depend id="135" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="194" name="Cuenta corriente de clientes" color="#8cb6ce" meeting="false" start="2010-06-07" duration="6" complete="0" priority="1" expand="false">
+                    <task id="195" name="MD" color="#8cb6ce" meeting="false" start="2010-06-07" duration="1" complete="0" priority="1" expand="true">
+                        <depend id="135" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="135" name="LN" color="#8cb6ce" meeting="false" start="2010-06-08" duration="1" complete="0" priority="1" expand="true">
+                        <depend id="136" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="136" name="GUI" color="#8cb6ce" meeting="false" start="2010-06-09" duration="5" complete="0" priority="1" expand="true"/>
+                </task>
+            </task>
+            <task id="137" name="Información gerencial" color="#8cb6ce" meeting="false" start="2010-05-24" duration="6" complete="0" priority="1" expand="true">
+                <depend id="199" type="2" difference="0" hardness="Strong"/>
+                <task id="138" name="Datamart prácticas" color="#8cb6ce" meeting="false" start="2010-05-24" duration="2" complete="0" priority="1" expand="true">
+                    <depend id="139" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="139" name="Informes prácticas" color="#8cb6ce" meeting="false" start="2010-05-27" duration="4" complete="0" priority="1" expand="true"/>
+            </task>
+            <task id="199" name="Preparar demo" color="#8cb6ce" meeting="false" start="2010-06-15" duration="1" complete="0" priority="1" expand="true">
+                <depend id="87" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="87" name="Cierre" color="#8cb6ce" meeting="false" start="2010-06-16" duration="1" complete="0" priority="1" expand="false"/>
         </task>
-        <task id="7" name="SPRINT 7" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="true">
-            <task id="93" name="Planificación" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="false"/>
-            <task id="91" name="Cierre" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="false"/>
+        <task id="7" name="SPRINT 7" color="#8cb6ce" meeting="false" start="2010-05-21" duration="14" complete="0" priority="1" expand="true">
+            <task id="93" name="Planificación" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="false">
+                <depend id="141" type="2" difference="0" hardness="Strong"/>
+                <depend id="148" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="141" name="Materiales" color="#8cb6ce" meeting="false" start="2010-05-24" duration="11" complete="0" priority="1" expand="false">
+                <depend id="198" type="2" difference="0" hardness="Strong"/>
+                <task id="191" name="Solicitudes de Compra" color="#8cb6ce" meeting="false" start="2010-05-24" duration="6" complete="0" priority="1" expand="true">
+                    <task id="142" name="MD" color="#8cb6ce" meeting="false" start="2010-05-24" duration="2" complete="0" priority="1" expand="true">
+                        <depend id="143" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="143" name="LN" color="#8cb6ce" meeting="false" start="2010-05-27" duration="1" complete="0" priority="1" expand="true">
+                        <depend id="144" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="144" name="GUI" color="#8cb6ce" meeting="false" start="2010-05-28" duration="3" complete="0" priority="1" expand="true">
+                        <depend id="145" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="192" name="Cotizaciones" color="#8cb6ce" meeting="false" start="2010-06-02" duration="5" complete="0" priority="1" expand="true">
+                    <task id="145" name="MD" color="#8cb6ce" meeting="false" start="2010-06-02" duration="1" complete="0" priority="1" expand="true">
+                        <depend id="146" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="146" name="LN" color="#8cb6ce" meeting="false" start="2010-06-03" duration="1" complete="0" priority="1" expand="true">
+                        <depend id="147" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="147" name="GUI" color="#8cb6ce" meeting="false" start="2010-06-04" duration="3" complete="0" priority="1" expand="true"/>
+                </task>
+            </task>
+            <task id="148" name="Información gerencial" color="#8cb6ce" meeting="false" start="2010-05-24" duration="6" complete="0" priority="1" expand="false">
+                <depend id="198" type="2" difference="0" hardness="Strong"/>
+                <task id="149" name="Datamart facturación" color="#8cb6ce" meeting="false" start="2010-05-24" duration="2" complete="0" priority="1" expand="true">
+                    <depend id="150" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="150" name="Informes facturación" color="#8cb6ce" meeting="false" start="2010-05-27" duration="4" complete="0" priority="1" expand="true"/>
+            </task>
+            <task id="198" name="Preparar demo" color="#8cb6ce" meeting="false" start="2010-06-09" duration="1" complete="0" priority="1" expand="true">
+                <depend id="91" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="91" name="Cierre" color="#8cb6ce" meeting="false" start="2010-06-10" duration="1" complete="0" priority="1" expand="false"/>
         </task>
-        <task id="8" name="SPRINT 8" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="true">
-            <task id="97" name="Planificación" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="false"/>
-            <task id="95" name="Cierre" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="false"/>
+        <task id="8" name="SPRINT 8" color="#8cb6ce" meeting="false" start="2010-05-24" duration="16" complete="0" priority="1" expand="false">
+            <task id="97" name="Planificación" color="#8cb6ce" meeting="false" start="2010-05-24" duration="1" complete="0" priority="1" expand="true">
+                <depend id="152" type="2" difference="0" hardness="Strong"/>
+                <depend id="158" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="158" name="Materiales" color="#8cb6ce" meeting="false" start="2010-05-26" duration="12" complete="0" priority="1" expand="false">
+                <depend id="95" type="2" difference="0" hardness="Strong"/>
+                <depend id="152" type="2" difference="0" hardness="Strong"/>
+                <task id="189" name="Órdenes de Compra" color="#8cb6ce" meeting="false" start="2010-05-26" duration="6" complete="0" priority="1" expand="false">
+                    <task id="160" name="MD" color="#8cb6ce" meeting="false" start="2010-05-26" duration="2" complete="0" priority="1" expand="false">
+                        <depend id="162" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="162" name="LN" color="#8cb6ce" meeting="false" start="2010-05-28" duration="1" complete="0" priority="1" expand="false">
+                        <depend id="164" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="164" name="GUI" color="#8cb6ce" meeting="false" start="2010-05-31" duration="3" complete="0" priority="1" expand="false">
+                        <depend id="166" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="190" name="Recepciones de Compras " color="#8cb6ce" meeting="false" start="2010-06-03" duration="6" complete="0" priority="1" expand="false">
+                    <task id="166" name="MD" color="#8cb6ce" meeting="false" start="2010-06-03" duration="2" complete="0" priority="1" expand="false">
+                        <depend id="154" type="2" difference="0" hardness="Strong"/>
+                        <depend id="168" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="168" name="LN" color="#8cb6ce" meeting="false" start="2010-06-07" duration="1" complete="0" priority="1" expand="false">
+                        <depend id="170" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="170" name="GUI" color="#8cb6ce" meeting="false" start="2010-06-08" duration="3" complete="0" priority="1" expand="true">
+                        <depend id="171" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+            </task>
+            <task id="152" name="Información gerencial" color="#8cb6ce" meeting="false" start="2010-06-11" duration="2" complete="0" priority="1" expand="false">
+                <depend id="95" type="2" difference="0" hardness="Strong"/>
+                <task id="154" name="Datamart materiales" color="#8cb6ce" meeting="false" start="2010-06-07" duration="2" complete="0" priority="1" expand="false"/>
+            </task>
+            <task id="174" name="Preparar demo" color="#8cb6ce" meeting="false" start="2010-05-26" duration="1" complete="0" priority="1" expand="true">
+                <depend id="95" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="95" name="Cierre" color="#8cb6ce" meeting="false" start="2010-06-15" duration="1" complete="0" priority="1" expand="false"/>
         </task>
-        <task id="9" name="SPRINT 9" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="true">
-            <task id="101" name="Planificación" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="false"/>
-            <task id="99" name="Cierre" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="false"/>
+        <task id="9" name="SPRINT 9" color="#8cb6ce" meeting="false" start="2010-06-07" duration="11" complete="0" priority="1" expand="true">
+            <task id="101" name="Planificación" color="#8cb6ce" meeting="false" start="2010-06-07" duration="1" complete="0" priority="1" expand="true"/>
+            <task id="188" name="Configuración" color="#8cb6ce" meeting="false" start="2010-06-07" duration="1" complete="0" priority="1" expand="false">
+                <task id="175" name="Preferencias de usuario" color="#8cb6ce" meeting="false" start="2010-06-07" duration="1" complete="0" priority="1" expand="true">
+                    <task id="176" name="MD" color="#8cb6ce" meeting="false" start="2010-06-07" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="177" name="LN" color="#8cb6ce" meeting="false" start="2010-06-07" duration="1" complete="0" priority="1" expand="true"/>
+                    <task id="178" name="GUI" color="#8cb6ce" meeting="false" start="2010-06-07" duration="1" complete="0" priority="1" expand="true"/>
+                </task>
+            </task>
+            <task id="186" name="Materiales" color="#8cb6ce" meeting="false" start="2010-06-11" duration="7" complete="0" priority="1" expand="false">
+                <task id="187" name="Control de Stock" color="#8cb6ce" meeting="false" start="2010-06-11" duration="7" complete="0" priority="1" expand="true">
+                    <task id="185" name="MD" color="#8cb6ce" meeting="false" start="2010-06-11" duration="2" complete="0" priority="1" expand="false">
+                        <depend id="183" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="183" name="LN" color="#8cb6ce" meeting="false" start="2010-06-15" duration="2" complete="0" priority="1" expand="false">
+                        <depend id="181" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="181" name="GUI" color="#8cb6ce" meeting="false" start="2010-06-17" duration="3" complete="0" priority="1" expand="false"/>
+                </task>
+            </task>
+            <task id="179" name="Preparar demo" color="#8cb6ce" meeting="false" start="2010-06-07" duration="1" complete="0" priority="1" expand="true">
+                <depend id="99" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="99" name="Cierre" color="#8cb6ce" meeting="false" start="2010-06-08" duration="1" complete="0" priority="1" expand="false"/>
         </task>
-        <task id="10" name="SPRINT 10" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="true">
+        <task id="10" name="SPRINT 10" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="false">
             <task id="105" name="Planificación" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="false"/>
             <task id="103" name="Copiar_Cierre" color="#8cb6ce" meeting="false" start="2010-05-21" duration="1" complete="0" priority="1" expand="false"/>
         </task>
@@ -219,10 +395,10 @@
     <allocations/>
     <vacations/>
     <taskdisplaycolumns>
-        <displaycolumn property-id="tpd3" order="0" width="92"/>
-        <displaycolumn property-id="tpd4" order="1" width="63"/>
-        <displaycolumn property-id="tpd5" order="2" width="60"/>
-        <displaycolumn property-id="tpd6" order="3" width="60"/>
+        <displaycolumn property-id="tpd3" order="0" width="134"/>
+        <displaycolumn property-id="tpd4" order="1" width="45"/>
+        <displaycolumn property-id="tpd5" order="2" width="48"/>
+        <displaycolumn property-id="tpd6" order="3" width="48"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>
