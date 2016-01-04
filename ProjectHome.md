@@ -1,0 +1,1 @@
+El Sistema Odontológico Integral está concebido como un sistema para gestión de clínicas odontológicas de cualquier magnitud.
